@@ -1,0 +1,110 @@
+body {
+  background-image: url('../images/wallpaper.jpg');
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  background-position: center;
+  position: sticky;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 60px;
+  color: yellow;
+}
+
+#gaugecluster {
+  background-image: url('../images/carbon.jpg');
+  background-repeat: no-repeat;
+  width: 33%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: auto;
+}
+
+.dash {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+  margin-top: 33%;
+}
+
+.dashBoard {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+}
+
+.dashCrash {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+}
+
+label {
+  color: yellow;
+}
+
+#answerScreen {
+  display: none;
+  background-image: url('../images/carbon.jpg');
+  background-repeat: no-repeat;
+  width: 33%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-top: 15%;
+  font-size: 21px;
+}
+
+#timesUp {
+  display: none;
+  background-image: url('../images/carbon.jpg');
+  background-repeat: no-repeat;
+  width: 33%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-top: 15%;
+  font-size: 21px;
+}
+
+.up {
+  color: red;
+}
+
+.timeRemain {
+  padding: 2%;
+  color: red;
+}
+
+.timeRemain #time-remain {
+  font-size: 60px;
+}
+
+body .container {
+  background-image: url('../images/carbon.jpg');
+  height: 100%;
+  text-align: center;
+  display: none;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.questions {
+  padding: 3%;
+  font-size: 25px;
+}
+
+.ques,
+label {
+  padding: 3%;
+}
+
+header {
+  font-size: 60px;
+  color: yellow;
+  margin-top: 2%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="asset/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="gaugecluster">
+        <div class="dash">
+            <h1>Car Trivia!</h1>
+            <p>Test your automotive knowlege in this 60 second triva game!</p>
+            <br />
+            <button type="button" id="start-btn">START</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="dashBoard">
+            <h2>Results</h2>
+            <p id="correctScreen">Correct Answers: </p>
+            <p id="wrongScreen">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div id="timesUp">
+        <div class="crashDash">
+            <h2 class="up">Times Up!</h2>
+            <p>Here's youre score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Car Trivia!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" id="sub-but">Submit</button>
+        </div>
+
+    </div>
+    <script src="asset/javascript/app.js"></script>
+</body>
+
+</html>
