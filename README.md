@@ -9,5 +9,5 @@ In this assignment, I created a Trivia game using JavaScript for the logic and j
 https://jasonsips.github.io/TriviaGame/
 
 
-! [Screenshot] (assets/images/CarTriva.png)
+! [Screenshot](assets/images/CarTriva.png)
 
